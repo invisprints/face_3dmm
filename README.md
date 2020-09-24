@@ -1,24 +1,31 @@
-# Project name here
-> Summary description here.
+# face_3dmm 
+
 
 
 This file will become your README and also the index of your documentation.
 
 ## Install
 
-`pip install your_project_name`
+`pip install -e .`
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
+Read 3d model files
 
+```python
+import face_3dmm.io as fio
 ```
-1+1
+
+```python
+from nbdev.export import *
+
+notebook2script()
 ```
 
+    Converted index.ipynb.
+    Converted io.ipynb.
 
 
-
-    2
-
-
+```python
+from nbdev.
+```

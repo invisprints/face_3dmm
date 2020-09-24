@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: module name here
-      url: core.html
+      url: io.html
     output: web
     title: face_3dmm
   output: web
