@@ -2,19 +2,32 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"load_vf": "io.ipynb",
+index = {"load_BFM": "3dmm.ipynb",
+         "load_BFM_info": "3dmm.ipynb",
+         "load_uv_coords": "3dmm.ipynb",
+         "load_pncc_code": "3dmm.ipynb",
+         "get_organ_ind": "3dmm.ipynb",
+         "estimate_shape": "3dmm.ipynb",
+         "estimate_expression": "3dmm.ipynb",
+         "fit_points": "3dmm.ipynb",
+         "fit_points_for_show": "3dmm.ipynb",
+         "MorphabelModel": "3dmm.ipynb",
+         "load_vf": "io.ipynb",
          "write_vf": "io.ipynb",
          "deg2rad": "transform.ipynb",
          "axis_angle_rotation": "transform.ipynb",
          "angle2matrix": "transform.ipynb",
          "similarity_transform": "transform.ipynb",
          "transform": "transform.ipynb",
+         "rotate": "transform.ipynb",
+         "matrix2angle": "transform.ipynb",
          "denormal_mesh": "transform.ipynb",
          "test": "utils.ipynb",
          "test_eq": "utils.ipynb",
          "simplify_qd": "utils.ipynb"}
 
-modules = ["io.py",
+modules = ["3dmm.py",
+           "io.py",
            "transform.py",
            "utils.py"]
 
