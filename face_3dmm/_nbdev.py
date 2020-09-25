@@ -2,9 +2,21 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "io.ipynb"}
+index = {"load_vf": "io.ipynb",
+         "write_vf": "io.ipynb",
+         "deg2rad": "transform.ipynb",
+         "axis_angle_rotation": "transform.ipynb",
+         "angle2matrix": "transform.ipynb",
+         "similarity_transform": "transform.ipynb",
+         "transform": "transform.ipynb",
+         "denormal_mesh": "transform.ipynb",
+         "test": "utils.ipynb",
+         "test_eq": "utils.ipynb",
+         "simplify_qd": "utils.ipynb"}
 
-modules = ["io.py"]
+modules = ["io.py",
+           "transform.py",
+           "utils.py"]
 
 doc_url = "https://invisprints.github.io/face_3dmm/"
 
