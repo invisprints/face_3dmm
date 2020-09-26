@@ -328,7 +328,7 @@ def fit_points_for_show(x, X_ind, model, n_sp, n_ep, max_iter = 4):
     return np.array(lsp), np.array(lep), np.array(ls), np.array(lR), np.array(lt)
 
 # Cell
-class  MorphabelModel(object):
+class MorphabelModel(object):
     """docstring for  MorphabelModel
     model: nver: number of vertices. ntri: number of triangles. *: must have. ~: can generate ones array for place holder.
             'shapeMU': [3*nver, 1]. *
